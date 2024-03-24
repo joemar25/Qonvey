@@ -42,4 +42,5 @@ testem.log
 Thumbs.db
 
 # Others
+/.vscode
 *.txt

@@ -33,7 +33,7 @@ note, install the nodejs
 commandline:
 npm install @angular/cli --global
 
-    - gives us the previlledge to use the `ng` command in our terminal directory we are in
+    - gives us the privilege to use the `ng` command in our terminal directory we are in
     - without the global, it just install and you can use the cli on the folder where you install it
 
 alternative
@@ -48,10 +48,10 @@ ng new ProjectTemplate
     - SSR [/] - the Server-side rendering (SSR) is the process of rendering a a fully frontend application on the server, rather than in the browser. The rendered HTML is then sent to the client, where it can be displayed by the web browser.
     - SSG [/] - is a process of creating a website as a set of static HTML files, rather than a dynamic web application. This can be useful for websites that do not require frequent updates or user interactions, and can benefit from the performance and scalability of static hosting.
 
-VS Code Config - Download Extention: Angular Language Service - Download Extention: Live Sass Compiler
+VS Code Config - Download Extension: Angular Language Service - Download Extension: Live Sass Compiler
 
 Start The Project
-    
+
     command: ng serve
 
     note: for hot reloading, use ng serve
@@ -60,14 +60,15 @@ Start The Project
 
     command: ng start
 
-Play with Angular - https://angular.dev/playground
+Play with Angular - <https://angular.dev/playground>
 
 ## References
 
-https://angular.io/start
-https://sass-lang.com/guide/
-https://medium.com/@crp_underground/server-side-rendering-ssr-vs-static-site-generation-ssg-in-next-js-72b086a373e6
+<https://angular.io/start>
+<https://sass-lang.com/guide/>
+<https://medium.com/@crp_underground/server-side-rendering-ssr-vs-static-site-generation-ssg-in-next-js-72b086a373e6>
 
 ## Update
+
     - This template is started from 17.3.1 version of Angular
         : https://youtu.be/GhNcPbm8w0k?si=WPyX4uWRBznhaG-r

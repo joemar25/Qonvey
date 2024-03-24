@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+/* GLOBAL Variables */
+
+// Lighter shades
+$primary-light: #007bff
+$secondary-light: #6c757d
+$success-light: #28a745
+$danger-light: #dc3545
+$warning-light: #ffc107
+$info-light: #17a2b8
+
+// Darker shades
+$primary-dark: #007bff
+$secondary-dark: #6c757d
+$success-dark: #28a745
+$danger-dark: #dc3545
+$warning-dark: #ffc107
+$info-dark: #17a2b8
+
+/* Custom Component Area with Tailwind */
+@layer components
+    .bg-primary-light
+        background-color: $primary-light
+
+/* Controller Classes */
+.btn
+    @apply text-white font-semibold py-2 px-4 rounded
+
+    &:hover
+        background-color: darken($primary-light, 10%)
+
+h1
+    @apply text-3xl font-bold underline
