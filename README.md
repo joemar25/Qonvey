@@ -62,13 +62,66 @@ Start The Project
 
 Play with Angular - <https://angular.dev/playground>
 
-## References
+## Todo for SOFTWARE FEATURES - Qonvey (DPWH and Fountain Blue)
 
-<https://angular.io/start>
-<https://sass-lang.com/guide/>
-<https://medium.com/@crp_underground/server-side-rendering-ssr-vs-static-site-generation-ssg-in-next-js-72b086a373e6>
+    General Objectives: Create a Hybrid Qommunication and meeting software
+                        All-In-One (GMeet/GClass/Taskade)
 
-## Update
+    - Ease
+        
+        - Qustomize (Customizable Skin)
+        
+        -----------------------------------------------------------------------------------------------------------------------------
+        - Quote chatbot (API that will be used for inquires of users - FAQ's)
+        - Qassist 24/7 remote tech support
+        -----------------------------------------------------------------------------------------------------------------------------
+
+        - AQcessible in desktop and mobile devices (Responsiveness on the web)
+        
+        - BroadQast Notification
+          note: set by a users of what is happening, that will be sent to other targets - can be all
+
+    - Hard
+        
+        -----------------------------------------------------------------------------------------------------------------------------
+        - (QMeeting) Intercom (TO ASK - UNLIMITED or What)
+            - chat
+            - video call
+                - share screen
+                - whiteboard
+                - team leader - access control of attendees
+            - QPoll feature (Another System)
+        -----------------------------------------------------------------------------------------------------------------------------
+
+        - File sharing (storage from local to cloud server)
+            - Written (Pdf/Words/PPT/links)
+            - Media (Image/Audio/Video - large so limit)
+
+        - Qalendar feature (users can schedule, remind deadlines, "book appointments???" and "make reservations - for what??", etc)
+        
+        - QTask feature (Taskade wannabe for leader to assign task to employees)
+        
+        - QSign (Service Level Agreement - for users)
+ 
+    note: Mar put some comments to the SE Features to avoid confusion
+
+    reference: https://docs.google.com/document/d/1vqOqolCSPiXbt1cB_rHluvNOzxph3Z6GKC4F2CDYq2A/edit?usp=sharing
+
+## Integration for the System
+
+    [/] Tailwind + SaSS
+
+## Dev Usage
+
+    - run the command: `npm install` on your terminal after cloning this repository
+
+## Version Update of Current Workplace
 
     - This template is started from 17.3.1 version of Angular
         : https://youtu.be/GhNcPbm8w0k?si=WPyX4uWRBznhaG-r
+
+## References
+
+[Angular IO](https://angular.io/start)
+[SaSS](https://sass-lang.com/guide/)
+[SSR & SSG](https://medium.com/@crp_underground/server-side-rendering-ssr-vs-static-site-generation-ssg-in-next-js-72b086a373e6)
